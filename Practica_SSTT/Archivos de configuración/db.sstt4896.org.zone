@@ -1,0 +1,19 @@
+$TTL	3600
+@ IN SOA dns1.sstt4896.org. root.dns1.sstt4896.org. (
+	2	; Serial
+	604800	; Refresh 
+	86400	; Retry 
+	2419200 ; Expire 
+	604800) ; minimum
+;
+@	IN	NS	dns1.sstt4896.org.
+@	IN	NS	dns2.sstt4896.org.
+dns1.sstt4896.org.	IN	A	192.168.55.4
+dns2.sstt4896.org.	IN	A	192.168.55.5
+cliente.sstt4896.org.	IN	A	192.168.55.3
+servidor.sstt4896.org.	IN	A	192.168.55.4
+www.sstt4896.org.	IN	A	192.168.55.4
+web.sstt4896.org.	IN	A	192.168.55.4
+pop.sstt4896.org.       IN      A       192.168.55.4
+sstt4896.org.           IN      MX      20      smtp.sstt4896.org.
+smtp.sstt4896.org.	IN	A	192.168.55.4
